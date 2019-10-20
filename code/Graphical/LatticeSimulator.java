@@ -188,7 +188,7 @@ class Lattice {
 			nearestNeighboursArray[3] = latticeArray[x + 1][y];
 		}
 
-		// This does the work of the Krönecker ð-function
+		// This does the work of the Kronecker d-function
 		for (int i = 0; i < 4; i++) {
 			if (nearestNeighboursArray[i] == targetCellState) {
 				energy++;
