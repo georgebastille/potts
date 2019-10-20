@@ -5,7 +5,7 @@ A Java™ implementation of the q-state Potts Model on a 2D square lattice is us
 For details see the [report](potts_report.doc)
 
 To run the simulation:
-```java
+```bash
 cd code/Graphical
 javac LatticeSimulator.java
 java LatticeSimulator
